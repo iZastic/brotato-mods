@@ -29,9 +29,6 @@ outline_shader_mat = SubResource( 2 )
 position = Vector2( 22, 0 )
 texture = ExtResource( 4 )
 
-[node name="Attach" parent="." index="1"]
-position = Vector2( 0, 4 )
-
 [node name="CollisionShape2D" parent="Range" index="0"]
 shape = SubResource( 1 )
 
