@@ -1,5 +1,5 @@
 # Brotato Mods by iZastic
 
-[CrateOptions](iZastic-CrateOptions/README.md)
+[CrateOptions](iZastic-CrateOptions)
 
-[Taters](iZastic-Taters/README.md)
+[Taters](iZastic-Taters)
