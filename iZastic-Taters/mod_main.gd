@@ -23,6 +23,7 @@ func _ready() -> void:
 
 	var content_dir_path = mod_dir_path.plus_file("content_data")
 	ContentLoader.load_data(content_dir_path + "/taters_sets.tres", MOD_ID)
+	ContentLoader.load_data(content_dir_path + "/taters_characters.tres", MOD_ID)
 	ContentLoader.load_data(content_dir_path + "/weapons/ranged/boomerang.tres", MOD_ID)
 	ContentLoader.load_data(content_dir_path + "/weapons/ranged/snowball.tres", MOD_ID)
 
