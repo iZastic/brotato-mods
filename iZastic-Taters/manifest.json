@@ -1,0 +1,43 @@
+{
+	"name": "Taters",
+	"namespace": "iZastic",
+	"version_number": "1.0.0",
+	"description": "New characters, items, and weapons",
+	"website_url": "https://github.com/izastic/brotato-mods",
+	"dependencies": [
+		"Darkly77-ContentLoader"
+	],
+	"extra": {
+		"godot": {
+			"authors": [
+				"iZastic"
+			],
+			"optional_dependencies": [
+
+			],
+			"compatible_game_version": [
+				"1.1.12.0"
+			],
+			"compatible_mod_loader_version": [
+				"6.2.0"
+			],
+			"incompatibilities": [
+
+			],
+			"load_before": [
+
+			],
+			"tags": [
+				"Characters",
+				"Items",
+				"New Mechanics",
+				"Weapons"
+			],
+			"config_schema": {
+
+			},
+			"description_rich": "",
+			"image": null
+		}
+	}
+}

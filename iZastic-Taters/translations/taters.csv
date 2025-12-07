@@ -1,0 +1,5 @@
+keys,en
+EFFECT_SNOWBALL,Snowball splits into 5 snowballs on hit dealing 50% damage each
+WEAPON_BOOMERANG,Boomerang
+WEAPON_SNOWBALL,Snowball
+WEAPON_CLASS_CHAINING,Chaining

@@ -1,0 +1,61 @@
+{
+	"name": "CrateOptions",
+	"namespace": "iZastic",
+	"version_number": "1.0.1",
+	"description": "Adds options for crates:\n- Endless\n- Shared (coop)",
+	"website_url": "https://github.com/izastic/brotato-mods",
+	"dependencies": [
+
+	],
+	"extra": {
+		"godot": {
+			"authors": [
+				"iZastic"
+			],
+			"optional_dependencies": [
+
+			],
+			"compatible_game_version": [
+				"1.1.12.0"
+			],
+			"compatible_mod_loader_version": [
+				"6.2.0"
+			],
+			"incompatibilities": [
+				"LexLooter-SharedLootBoxes",
+				"FlyingTygers-EndlessRedCrate"
+			],
+			"load_before": [
+
+			],
+			"tags": [
+				"Items",
+				"Utilities"
+			],
+			"config_schema": {
+				"title": "Crate Options",
+				"description": "Extra options for crates",
+				"type": "object",
+				"properties": {
+					"SHARE_COMMON_CRATES": {
+						"title": "Share Common Crates",
+						"type": "boolean",
+						"default": true
+					},
+					"SHARE_LEGENDARY_CRATES": {
+						"title": "Share Legendary Crates",
+						"type": "boolean",
+						"default": true
+					},
+					"ENDLESS_LEGENDARY_CRATES": {
+						"title": "Endless Legendary Crates",
+						"type": "boolean",
+						"default": true
+					}
+				}
+			},
+			"description_rich": "",
+			"image": null
+		}
+	}
+}
