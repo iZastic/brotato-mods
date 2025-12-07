@@ -1,4 +1,4 @@
-[gd_resource type="Resource" load_steps=7 format=2]
+[gd_resource type="Resource" load_steps=14 format=2]
 
 [ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/content_data.gd" type="Script" id=1]
 [ext_resource path="res://mods-unpacked/iZastic-Taters/content/weapons/ranged/snowball/2/snowball_2_data.tres" type="Resource" id=2]
@@ -6,13 +6,20 @@
 [ext_resource path="res://mods-unpacked/iZastic-Taters/content/weapons/ranged/snowball/4/snowball_4_data.tres" type="Resource" id=4]
 [ext_resource path="res://mods-unpacked/iZastic-Taters/content/weapons/ranged/snowball/3/snowball_3_data.tres" type="Resource" id=5]
 [ext_resource path="res://items/characters/well_rounded/well_rounded_data.tres" type="Resource" id=6]
+[ext_resource path="res://items/characters/technomage/technomage_data.tres" type="Resource" id=7]
+[ext_resource path="res://items/characters/apprentice/apprentice_data.tres" type="Resource" id=8]
+[ext_resource path="res://items/characters/mutant/mutant_data.tres" type="Resource" id=9]
+[ext_resource path="res://items/characters/mage/mage_data.tres" type="Resource" id=10]
+[ext_resource path="res://items/characters/old/old_data.tres" type="Resource" id=11]
+[ext_resource path="res://items/characters/multitasker/multitasker_data.tres" type="Resource" id=12]
+[ext_resource path="res://items/characters/explorer/explorer_data.tres" type="Resource" id=13]
 
 [resource]
 script = ExtResource( 1 )
 characters = [  ]
 items = [  ]
 weapons = [ ExtResource( 3 ), ExtResource( 2 ), ExtResource( 5 ), ExtResource( 4 ) ]
-weapons_characters = [ [ ExtResource( 6 ) ] ]
+weapons_characters = [ [ ExtResource( 10 ), ExtResource( 11 ), ExtResource( 8 ), ExtResource( 7 ), ExtResource( 9 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 6 ) ] ]
 sets = [  ]
 challenges = [  ]
 upgrades = [  ]
